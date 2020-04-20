@@ -1,0 +1,11 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/marwa",
+  "password": false,
+  "pid": 4294,
+  "port": 8888,
+  "secure": false,
+  "token": "fc352270abe95644c50b38c5d83a509c37c934f8a72d398a",
+  "url": "http://localhost:8888/"
+}

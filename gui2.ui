@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1229</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Image Display</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1130</width>
+     <height>800</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="0">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,4">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QRadioButton" name="img1_active">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="img1_label">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; font-style:italic;&quot;&gt;Image1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="components_img1">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Components</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Magnitude</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Phase</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Real</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Imaginary</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QLabel" name="img1">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="img1_modified">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="leftMargin">
+           <number>30</number>
+          </property>
+          <property name="topMargin">
+           <number>30</number>
+          </property>
+          <property name="rightMargin">
+           <number>30</number>
+          </property>
+          <property name="bottomMargin">
+           <number>30</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_12">
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>24</pointsize>
+                  <weight>75</weight>
+                  <italic>true</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Mixer Output to :</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="output_choice">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Output</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Output1</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Output2</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_13">
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="font">
+                   <font>
+                    <family>Times New Roman</family>
+                    <pointsize>18</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Component 1 :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="choose_comp1">
+                  <property name="font">
+                   <font>
+                    <family>Times New Roman</family>
+                    <pointsize>10</pointsize>
+                    <italic>true</italic>
+                   </font>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>Image</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Image1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Image2</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="percentage1">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_14">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_16"/>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_13">
+                  <item>
+                   <widget class="QComboBox" name="comp1_effect">
+                    <property name="font">
+                     <font>
+                      <family>Times New Roman</family>
+                      <pointsize>10</pointsize>
+                      <italic>true</italic>
+                     </font>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>Effect</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Magnitude</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Phase</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Uniphase</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Real</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Imaginary</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Unimagnitude</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_8">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_14">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_19">
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="font">
+                   <font>
+                    <family>Times New Roman</family>
+                    <pointsize>18</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Component 2 :</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QComboBox" name="choose_comp2">
+                  <property name="font">
+                   <font>
+                    <family>Times New Roman</family>
+                    <pointsize>10</pointsize>
+                    <italic>true</italic>
+                   </font>
+                  </property>
+                  <item>
+                   <property name="text">
+                    <string>Image</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Image1</string>
+                   </property>
+                  </item>
+                  <item>
+                   <property name="text">
+                    <string>Image2</string>
+                   </property>
+                  </item>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="percentage2">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_15">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_17">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_18"/>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_16">
+                  <item>
+                   <widget class="QComboBox" name="comp2_effect">
+                    <property name="font">
+                     <font>
+                      <family>Times New Roman</family>
+                      <pointsize>10</pointsize>
+                      <italic>true</italic>
+                     </font>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>Effect</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Magnitude</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Phase</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Uniphase</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Real</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Imaginary</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Unimagnitude</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="0,0">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_5" stretch="1,4">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <widget class="QRadioButton" name="img2_active">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="img2_label">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; font-style:italic;&quot;&gt;Image2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="components_img2">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Components</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Magnitude</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Phase</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Real</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Imaginary</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QLabel" name="img2">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="img2_modified">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_6" stretch="1,4">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <item>
+               <widget class="QLabel" name="output1label">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>20</pointsize>
+                  <weight>75</weight>
+                  <italic>true</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;OUTPUT1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="output2label">
+                <property name="font">
+                 <font>
+                  <family>Times New Roman</family>
+                  <pointsize>20</pointsize>
+                  <weight>75</weight>
+                  <italic>true</italic>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;OUTPUT2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QLabel" name="output1">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="output2">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen_image">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionOpen_Image2">
+   <property name="text">
+    <string>Open Image2</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
